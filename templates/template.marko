@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="keywords" content="">
+	<meta name="description" content=""/>
+	<meta name="author" content="">
+
+	<title>${data.title}</title>
+
+	<link href="/static/css/master.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<include template="../marginals/header.marko" template-data="data"/>
+	</header>
+
+	<main>
+		<include template="$data.includeName" template-data="data"/>
+	</main>
+
+	<footer>
+		<include template="../marginals/footer.marko" template-data="data"/>
+	</footer>
+</body>
+<script src="/static/js/master.js"></script>
+</html>

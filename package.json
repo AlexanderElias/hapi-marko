@@ -1,0 +1,18 @@
+{
+  "name": "hapi-marko-boilerplate",
+  "version": "1.0.0",
+  "description": "A Hapi Marko Boilerplate",
+  "main": "app.js",
+  "dependencies": {
+    "hapi": "^11.1.4",
+    "inert": "^3.2.0",
+    "marko": "^2.8.2",
+    "vision": "^4.0.1"
+  },
+  "scripts": {
+    "test": "port= 8000 nodemon app.js",
+    "start": "port=8000 pm2 start app.js"
+  },
+  "author": "Alexander Elias",
+  "license": "SEE LICENSE IN LICENSE"
+}
